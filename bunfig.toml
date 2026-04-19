@@ -1,0 +1,5 @@
+# Dev-mode configuration for the restored Claude Code source tree.
+# Registers the bun:bundle shim and MACRO global before any application
+# code is evaluated.
+
+preload = ["./src/dev-preload.ts"]
